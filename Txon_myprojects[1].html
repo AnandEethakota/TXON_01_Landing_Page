@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="home-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="software-image" />
+            <h1 class="my-projects-heading"> My Projects </h1>
+            <p class="paragraph"> There are my few static websites projects that i have developed using HTML, CSS and Bootstrap </p>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image-project" onclick="display('sectionAdvancedTechnologiesDetails')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="image-project" onclick="display('sectionDiwaliDetails')" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image-project" onclick="display('sectionFoodDetails')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="image-project" onclick="display('sectionNewsDetails')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectionAdvancedTechnologiesDetails">
+        <div class="technologies-container d-flex flex-column justify-content-end">
+            <div class="tech-card-container ">
+                <h1 class="tech-heading"> Advanced Technologies </h1>
+                <p class="para-heading">Graduate University of Advanced Technology is one of the most known universities in Iran Kerman more exactly in Kerman.
+                    The university is located in P.O. Box 117-76315 End of Haft Bagh-e-Alavi Highway Knowledge Paradise its zip code or postal code is 76311-33131 ,can be joined on thei </p>
+                <button class="button btn-success"> Learn more </button>
+                <button class="button btn-primary" onclick="display('sectionHome')"> Back </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionDiwaliDetails">
+        <div class="diwali-container d-flex flex-column justify-content-end">
+            <div class="tech-card-container">
+                <h1 class="tech-heading"> Diwali Celbrations </h1>
+                <h1> Crakers </h1>
+                <p class="para-heading">Graduate University of Advanced Technology is one of the most known universities in Iran Kerman more exactly in Kerman.
+                    The university is located in P.O. Box 117-76315 End of Haft Bagh-e-Alavi Highway Knowledge Paradise its zip code or postal code is 76311-33131 ,can be joined on thei </p>
+                <button class="button btn-success"> Learn more </button>
+                <button class="button btn-primary" onclick="display('sectionHome')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFoodDetails">
+        <div class="food-container d-flex flex-column justify-content-end">
+            <div class="tech-card-container">
+                <h1 class="tech-heading"> Happy Meals </h1>
+                <p class="para-heading">Graduate University of Advanced Technology is one of the most known universities in Iran Kerman more exactly in Kerman.
+                    The university is located in P.O. Box 117-76315 End of Haft Bagh-e-Alavi Highway Knowledge Paradise its zip code or postal code is 76311-33131 ,can be joined on thei </p>
+                <button class="button btn-success"> Learn more </button>
+                <button class="button btn-primary" onclick="display('sectionHome')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNewsDetails">
+        <div class="news-container d-flex flex-column justify-content-end">
+            <div class="tech-card-container">
+                <h1 class="tech-heading"> News Today </h1>
+                <p class="para-heading">Graduate University of Advanced Technology is one of the most known universities in Iran Kerman more exactly in Kerman.
+                    The university is located in P.O. Box 117-76315 End of Haft Bagh-e-Alavi Highway Knowledge Paradise its zip code or postal code is 76311-33131 ,can be joined on thei </p>
+                <button class="button btn-success"> Learn more </button>
+                <button class="button btn-primary" onclick="display('sectionHome')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNewsPaperDetails">
+        <div class="technologies-container d-flex flex-column justify-content-end">
+            <div class="tech-card-container">
+                <h1 class="tech-heading"> News </h1>
+                <p class="para-heading">Graduate University of Advanced Technology is one of the most known universities in Iran Kerman more exactly in Kerman.
+                    The university is located in P.O. Box 117-76315 End of Haft Bagh-e-Alavi Highway Knowledge Paradise its zip code or postal code is 76311-33131 ,can be joined on thei </p>
+                <button class="button btn-success"> Learn more </button>
+                <button class="button btn-primary" onclick="display('sectionHome')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

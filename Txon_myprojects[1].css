@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-page {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.software-image {
+    width: 80vw;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.my-projects-heading {
+    color: #616e7c;
+    font-size: 30px;
+    font-family: "bree Serif";
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.paragraph {
+    font-family: "bree Serif";
+    font-size: 15px;
+    color: #616e7c;
+}
+
+.image-project {
+    height: 80px;
+    width: 150px;
+    margin: 10px;
+}
+
+.technologies-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.tech-card-container {
+    background-color: skyblue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.tech-heading {
+    font-size: 20px;
+    font-family: "bree Serif";
+    color: #183b56;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.para-heading {
+    font-size: 15px;
+    color: #183b56;
+    padding: 5px;
+    margin: 5px;
+}
+
+.diwali-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.food-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.news-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png");
+    height: 100vh;
+    background-size: cover;
+}
